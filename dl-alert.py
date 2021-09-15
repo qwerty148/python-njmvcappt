@@ -5,10 +5,10 @@ from bs4 import BeautifulSoup
 from datetime import datetime
 import winsound
 
-location_arr = ['101','102','103','104','105','106','107','108','109','110','111','112','113','114','115','116','117','118','119','120','121','122','123']
-locationname_arr = ['Lawrenceville','Bayonne','North Cape May','Camden','Cardiff','Salem','Delanco','Eatontown','SouthPlainfield','Edison','Flemington','Toms River','Freehold','Lodi','Vineland','Newark','North Bergen','Wayne','Oakland','Paterson','Thorofare','Rahway','Randolph']
-base_url_link='https://telegov.njportal.com/njmvc/AppointmentWizard/11/'
-required_months = ['May','June']
+location_arr = ['102','114','116','117','118','120']
+locationname_arr = ['Bayonne','Lodi','Newark','North Bergen','Wayne','Paterson']
+base_url_link='https://telegov.njportal.com/njmvc/AppointmentWizard/15'
+required_months = ['September','October']
 
 def beep():
     winsound.Beep(1500, 500)
